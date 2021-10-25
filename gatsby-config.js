@@ -1,12 +1,12 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
+    siteUrl: "https://localhost:8000",
     title: "tailwind-gatsby4-okt",
   },
   plugins: [
-    "gatsby-plugin-postcss",
     "gatsby-plugin-image",
     "gatsby-plugin-mdx",
+    "gatsby-plugin-postcss",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     {
@@ -26,4 +26,4 @@ module.exports = {
       __key: "pages",
     },
   ],
-};
+}
