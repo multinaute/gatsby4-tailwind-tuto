@@ -6,6 +6,10 @@ module.exports = {
     screens: {
       md: "640px",
     },
+    fontFamily: {
+      sans: ["Helvetica", "Arial", "sans-serif"],
+      display: ["Custom Font", "Other Font"],
+    },
   },
   variants: {
     extend: {},
